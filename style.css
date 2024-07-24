@@ -1,0 +1,137 @@
+
+
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url('4day_170.jpg'); 
+    background-size: cover;
+    background-position: center;
+    image : url('PT_Pertamina_Patra_Niaga.svg.png');
+    position: relative;
+    }
+
+        .corner-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 170px; /* Lebar gambar, bisa disesuaikan */
+            height: auto; /* Mempertahankan rasio aspek */
+        }
+  
+
+  .content {
+    height: 100vh;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 350px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .social-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .social-button {
+    width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .social-button:hover {
+    background-color: #f0f0f0;
+  }
+
+  .checkbox {
+    margin-bottom: 20px;
+  }
+
+  .checkbox label {
+    display: block;
+    font-size: 14px;
+  }
+
+  .checkbox input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+  .next-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .next-button button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .next-button button:hover {
+    background-color: #45a049;
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
